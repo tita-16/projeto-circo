@@ -3,9 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="O Circo dos Bonecos é uma companhia brasileira de teatro de animação, com espetáculos para todas as idades.">
-  <meta name="keywords" content="circo, bonecos, teatro de animação, sustentabilidade, humor, arte, cultura">
-  <meta name="author" content="Circo dos Bonecos">
   <title>Circo dos Bonecos</title>
 
   <!-- Google Fonts -->
@@ -21,8 +18,8 @@
 </head>
 <body>
   <header class="shadow-sm">
-    <nav class="container d-flex justify-content-between align-items-center py-3" aria-label="Navegação principal">
-      <a href="#inicio" class="d-flex align-items-center" aria-label="Ir para o início">
+    <nav class="container d-flex justify-content-between align-items-center py-3">
+      <a href="#inicio" class="d-flex align-items-center">
         <img src="img/logo.png" alt="Logo Circo dos Bonecos" class="nav-img" loading="lazy">
       </a>
       <ul class="nav">
@@ -31,7 +28,7 @@
       </ul>
       <!-- Menu de Acessibilidade -->
       <div id="acessibilidade" class="menu-acessibilidade">
-        <button id="botao-acessibilidade" class="btn btn-primary fw-bold" aria-expanded="false" aria-label="Acessibilidade">
+        <button id="botao-acessibilidade" class="btn btn-primary fw-bold" aria-expanded="false">
           <i class="bi bi-universal-access"></i>
         </button>
         <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista">
@@ -48,20 +45,19 @@
     <section id="inicio" class="inicio-fundo d-flex align-items-center justify-content-between flex-wrap">
       <div class="esquerda-conteudo text-start">
         <h1 class="display-4 text-white fst-italic fw-bold">Boas-vindas ao Circo dos Bonecos!</h1>
-        <img src="img/cia-circo-de-bonecos-logo.png" class="mb-3 img-fluid" width="400" height="200" alt="Logo da Companhia Circo dos Bonecos" loading="lazy">
-        <a href="#circo-dos-bonecos" class="btn btn-primary btn-lg botao-inicio fw-semibold" role="button">Quero conhecer!</a>
+        <img src="img/cia-circo-de-bonecos-logo.png" class="mb-3 img-fluid" width="400" height="200" loading="lazy">
+        <a href="#circo-dos-bonecos" class="btn btn-primary btn-lg botao-inicio fw-semibold">Quero conhecer!</a>
       </div>
 
       <img src="img/hip-circo-de-bonecos.jpg"
-           class="img-fluid img-inicio d-none d-lg-block"
-           alt="Cena do espetáculo Circo dos Bonecos" loading="lazy">
+           class="img-fluid img-inicio d-none d-lg-block">
     </section>
 
     <!-- Sobre -->
     <section id="circo-dos-bonecos" class="py-5 bg-light" aria-label="Seção explicativa sobre o Circo dos Bonecos">
       <div class="container row align-items-center g-4">
         <div class="col-md-4 text-center">
-          <img src="img/logo.png" alt="Logo do Circo dos Bonecos" class="img-fluid rounded-pill shadow-sm" width="250" height="300" loading="lazy">
+          <img src="img/logo.png" alt="Imagem representativa do Circo dos Bonecos" class="img-fluid rounded-pill shadow-sm" width="250" height="300" loading="lazy">
         </div>
         <div class="col-md-8">
           <h2>O que é o Circo dos Bonecos?</h2>
@@ -81,13 +77,13 @@
         <h2 class="text-center mb-4">Galeria</h2>
         <div class="row g-4 justify-content-center">
           <div class="col-md-4">
-            <img src="img/3300622337_9ec91b500b_o.jpg" class="img-fluid rounded-4 shadow-sm" alt="Espetáculo de teatro com bonecos no palco" loading="lazy">
+            <img src="img/3300622337_9ec91b500b_o.jpg" class="img-fluid rounded-4 shadow-sm" alt="Imagem da galeria" loading="lazy">
           </div>
           <div class="col-md-4">
-            <img src="img/3301455822_8252f7569f_o.jpg" class="img-fluid rounded-4 shadow-sm" alt="Cena do Circo dos Bonecos com várias figuras de bonecos" loading="lazy">
+            <img src="img/3301455822_8252f7569f_o.jpg" class="img-fluid rounded-4 shadow-sm" alt="Imagem da galeria" loading="lazy">
           </div>
           <div class="col-md-4">
-            <img src="img/3301461990_1fb84115b5_o.jpg" class="img-fluid rounded-4 shadow-sm" alt="Ator manipulando bonecos no Circo dos Bonecos" loading="lazy">
+            <img src="img/3301461990_1fb84115b5_o.jpg" class="img-fluid rounded-4 shadow-sm" alt="Imagem da galeria" loading="lazy">
           </div>
         </div>
         <div class="particles">
@@ -108,137 +104,6 @@
 
   <!-- Scripts -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
-  <script>
-    ScrollReveal().reveal('.inicio-fundo', { delay: 300, origin: 'top', distance: '50px', duration: 800 });
-    ScrollReveal().reveal('.container', { delay: 300, origin: 'bottom', distance: '50px', duration: 800 });
-  </script>
   <script src="script.js"></script>
 </body>
 </html>
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="O Circo dos Bonecos é uma companhia brasileira de teatro de animação, com espetáculos para todas as idades.">
-  <meta name="keywords" content="circo, bonecos, teatro de animação, sustentabilidade, humor, arte, cultura">
-  <meta name="author" content="Circo dos Bonecos">
-  <title>Circo dos Bonecos</title>
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Lemon&display=swap" rel="stylesheet">
-
-  <!-- Bootstrap & Icons -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
-
-  <!-- Estilos -->
-  <link rel="stylesheet" href="styles.css"> <!-- Certifique-se de que styles.css esteja no mesmo diretório ou ajuste o caminho -->
-  <link rel="icon" type="image/png" href="img/logo.png"> <!-- Certifique-se de que a imagem logo.png esteja na pasta correta -->
-</head>
-<body>
-  <header class="shadow-sm">
-    <nav class="container d-flex justify-content-between align-items-center py-3" aria-label="Navegação principal">
-      <a href="#inicio" class="d-flex align-items-center" aria-label="Ir para o início">
-        <img src="img/logo.png" alt="Logo Circo dos Bonecos" class="nav-img" loading="lazy">
-      </a>
-      <ul class="nav">
-        <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
-        <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
-      </ul>
-      <!-- Menu de Acessibilidade -->
-      <div id="acessibilidade" class="menu-acessibilidade">
-        <button id="botao-acessibilidade" class="btn btn-primary fw-bold" aria-expanded="false" aria-label="Acessibilidade">
-          <i class="bi bi-universal-access"></i>
-        </button>
-        <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista">
-          <button id="aumentar-fonte" class="btn btn-sm btn-primary fw-bold" aria-label="Aumentar fonte">A+</button>
-          <button id="diminuir-fonte" class="btn btn-sm btn-primary fw-bold" aria-label="Diminuir fonte">A-</button>
-          <button id="alterna-contraste" class="btn btn-sm btn-primary fw-bold" aria-label="Alternar contraste"><i class="bi bi-shadows"></i></button>
-        </div>
-      </div>
-    </nav>
-  </header>
-
-  <main>
-    <!-- Hero Section -->
-    <section id="inicio" class="inicio-fundo d-flex align-items-center justify-content-between flex-wrap">
-      <div class="esquerda-conteudo text-start">
-        <h1 class="display-4 text-white fst-italic fw-bold">Boas-vindas ao Circo dos Bonecos!</h1>
-        <img src="img/cia-circo-de-bonecos-logo.png" class="mb-3 img-fluid" width="400" height="200" alt="Logo da Companhia Circo dos Bonecos" loading="lazy">
-        <a href="#circo-dos-bonecos" class="btn btn-primary btn-lg botao-inicio fw-semibold" role="button">Quero conhecer!</a>
-      </div>
-
-      <img src="img/hip-circo-de-bonecos.jpg"
-           class="img-fluid img-inicio d-none d-lg-block"
-           alt="Cena do espetáculo Circo dos Bonecos" loading="lazy">
-    </section>
-
-    <!-- Sobre -->
-    <section id="circo-dos-bonecos" class="py-5 bg-light" aria-label="Seção explicativa sobre o Circo dos Bonecos">
-      <div class="container row align-items-center g-4">
-        <div class="col-md-4 text-center">
-          <img src="img/logo.png" alt="Logo do Circo dos Bonecos" class="img-fluid rounded-pill shadow-sm" width="250" height="300" loading="lazy">
-        </div>
-        <div class="col-md-8">
-          <h2>O que é o Circo dos Bonecos?</h2>
-          <p>
-            O <strong>Circo dos Bonecos</strong> é uma companhia brasileira que produz espetáculos de teatro de animação para todas as idades,
-            combinando bonecos, objetos e atuações para criar obras cômicas e poéticas.  
-            A companhia é conhecida por sua linguagem inovadora, explorando criatividade e imaginação do público com humor, 
-            sustentabilidade e reflexões sobre relações humanas.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Galeria -->
-    <section id="galeria" class="py-5" aria-label="Seção de galeria de imagens">
-      <div class="container">
-        <h2 class="text-center mb-4">Galeria</h2>
-        <div class="row g-4 justify-content-center">
-          <div class="col-md-4">
-            <img src="img/3300622337_9ec91b500b_o.jpg" class="img-fluid rounded-4 shadow-sm" alt="Espetáculo de teatro com bonecos no palco" loading="lazy">
-          </div>
-          <div class="col-md-4">
-            <img src="img/3301455822_8252f7569f_o.jpg" class="img-fluid rounded-4 shadow-sm" alt="Cena do Circo dos Bonecos com várias figuras de bonecos" loading="lazy">
-          </div>
-          <div class="col-md-4">
-            <img src="img/3301461990_1fb84115b5_o.jpg" class="img-fluid rounded-4 shadow-sm" alt="Ator manipulando bonecos no Circo dos Bonecos" loading="lazy">
-          </div>
-        </div>
-        <div class="particles">
-          <span>🎉</span>
-          <span>🎉</span>
-          <span>🎉</span>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="text-center p-4 fst-italic bg-dark text-white">
-    <p class="mb-0">
-      Projeto desenvolvido por uma aluna da Escola Ibrahim Nobre em <time datetime="2025-08-27">27 de agosto de 2025</time>.  
-      Colaboradores: plataforma Alura e professor Marcos Antonio Kovaies.
-    </p>
-  </footer>
-
-  <!-- Scripts -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
-  <script>
-    ScrollReveal().reveal('.inicio-fundo', { delay: 300, origin: 'top', distance: '50px', duration: 800 });
-    ScrollReveal().reveal('.container', { delay: 300, origin: 'bottom', distance: '50px', duration: 800 });
-  </script>
-  <script src="script.js"></script> <!-- Certifique-se de que script.js esteja no mesmo diretório ou ajuste o caminho -->
-</body>
-</html>
-
-
-
-
-
-
-
-      
-
-
