@@ -1,3 +1,4 @@
+<!--livia pellegrini lima 2E 27.08.25
 document.addEventListener('DOMContentLoaded', () => {
   const botao = document.getElementById('botao-acessibilidade');
   const opcoes = document.getElementById('opcoes-acessibilidade');
